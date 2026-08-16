@@ -1,0 +1,572 @@
+[
+  {
+    "question": [
+      "“Can you tell me what exercise sessions I did on 2026-03-09, including duration and calories burned for each, and also report my sleep duration and sleep score on 2026-03-08?”",
+      "Could you tell me which days in March I had detected premature heartbeats, and based on my stress-related headaches and caffeine intake, what advice can you give me to lower my premature heartbeat risk?",
+      "\"Can you give me my total steps and sleep score for 2026-03-01, and then analyze how my weekly exercise volume relates to my sleep quality across the whole month?\"",
+      "Can you tell me my running exercise duration and calories burned on 2026-03-01, my total sleep duration and sleep score on 2026-03-08, and my total steps and sedentary periods on 2026-03-15?",
+      "Hey assistant, on 2026-03-15, how many total steps did I take? Also, what were my sleep onset time, total sleep duration, and sleep score that day? Based on my overall monthly activity and sleep patterns, what advice can you give me to improve my sleep quality?",
+      "Can you tell me my total exercise time and average sleep score for March 1–7, analyse how the days with exercise compared to the no-exercise day affected my sleep, and advise whether I should schedule rest days differently to improve my sleep quality?"
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 1
+  },
+  {
+    "question": [
+      "Can you tell me my full exercise record on 2026-03-07, including exercise type, duration, and calories burned, as well as my sleep health that day, such as sleep onset time, total sleep duration, sleep score, and number of sleep apnea events detected?",
+      "\"Can you tell me how many sleep apnea events I had on March 4 and what my sleep score was that day, and then give me advice on how to improve my sleep quality and reduce future sleep apnea occurrences?\"",
+      "What were my daily sleep scores and the number of sleep apnea events for each day between March 1 and March 7, and can you analyze whether there is a correlation between my sleep score and the frequency of apnea events?",
+      "Could you look up three things for me?\n\n1. On 2026-03-04, what was my sleep onset time, total sleep duration, sleep score, and how many sleep apnea events were detected? ",
+      "Assistant, could you tell me how many sleep apnea events I had on March 4 and what my total daily calorie consumption was on March 14? Also, based on my March exercise and sleep apnea data, what advice can you give me to reduce sleep apnea episodes and improve my sleep quality?",
+      "Here are some questions I would ask the smart wearable assistant, each combining query, analysis, and advice:\n\n1. **Query + Analyse + Advice**  \nCould you query my records for 2026-03-04 and 2026-03-08, including total sleep duration, sleep score, number of sleep apnea events, total steps, sedentary periods, and exercise type/duration/calories? Then analyse how the differences in exercise and activity between those two days relate to my sleep apnea and sleep quality, and advise me on the best type of weekday exercise to improve my sleep."
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 2
+  },
+  {
+    "question": [
+      "What exercise did I do on March 14, and how many sleep apnea episodes were detected that night?",
+      "Assistant, using my March data, how many days did I have at least one atrial fibrillation episode, and what was my total exercise time for the month? Also, given my atrial fibrillation and borderline hypertension, what exercise type, frequency, and intensity do you advise me to follow?\n\nAssistant, on which days did I experience one or more sleep apnea events, and what was my average sleep score on those days? Based on those results and my irregular sleep schedule, what bedtime routine and lifestyle changes would you recommend to improve my sleep and reduce my AFib risk?",
+      "Here are some multi-intent questions I would ask my smart wearable device assistant:\n\n1. Can you show me my daily step counts and total calories burned for each day in March, and then analyse whether days with higher step counts also had fewer sedentary periods?\n\n2. What are all the recorded atrial fibrillation and premature heartbeat events this month, and can you analyse whether there is a time-of-day pattern for those events?\n\n3. Please retrieve my sleep onset time, total sleep duration, sleep apnea events, and sleep score for each day, and analyse whether later bedtimes are linked to lower sleep scores?",
+      "1. What are my demographic details and medical history from my profile?  \n2. What exercise did I do on 2026-03-01, and how many kilocalories did it burn?  \n3. On 2026-03-02, how many atrial fibrillation episodes and sleep apnea events were detected, and what was my total sleep duration and sleep score?",
+      "Assistant, can you tell me my exercise and activity data for March 21 — for example, exercise type, duration, calories burned, and total steps — and also my health data for that day, such as atrial fibrillation episodes, premature heartbeats, sleep apnea events, sleep duration, and sleep score? Based on these results and considering my history of atrial fibrillation and irregular sleep, what specific advice do you recommend to help me manage my condition?",
+      "\"Based on my March data, what were my average daily steps and average sleep score? Can you also analyze how my atrial fibrillation episodes relate to my exercise days and sleep quality, and then advise me on specific changes to my exercise or sleep routine to reduce AFib episodes and improve my overall heart health?\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 3
+  },
+  {
+    "question": [
+      "Assistant, could you please tell me my daily step counts and my sleep scores for each day from March 1 to March 7?",
+      "Here are my questions for the smart wearable assistant, each combining a data query with a request for advice:\n\n1. What were the step counts and total calorie expenditure on the days I did Tai Chi: March 3, 12, 19, 26, and 30? Given my mild osteoarthritis, should I continue Tai Chi, and if so, how often?",
+      "Here are some questions I would ask my smart wearable device assistant, combining both **query** and **analyse** intentions:\n\n1. **Please show me my daily step counts and exercise calories from March 1 to March 7, and analyse whether days with more exercise also had higher total daily calorie consumption.**\n\n2. **Can you list all the dates and times when premature heartbeats were detected this month, and analyse whether those days had lower sleep scores or shorter sleep durations compared with days without premature heartbeats?**\n\n3. **Please provide my sleep onset times, total sleep durations, and sleep scores on nights when sleep apnea events were recorded, and analyse whether sleep apnea events are associated with poorer sleep quality or shorter sleep duration.**",
+      "On 2026-03-03, what were my exercise sessions and the calories burned for each; how many premature heartbeats and sleep apnea events were detected; and what were my total steps, sedentary periods, and daily calorie consumption?",
+      "Assistant, could you tell me what my total sleep duration and sleep score were on March 16? Also, how many steps did I take on March 19? And given my premature ventricular contractions and type 2 diabetes, what advice do you have for managing my health and daily routine?",
+      "Here are some questions for the smart wearable assistant that combine **query**, **analyse**, and **advice**:\n\n1. **Query + Analyse + Advice**  \n   Can you tell me the dates in March when I did Tai Chi, and what my sleep duration and sleep score were on those days? Then analyse whether those Tai Chi days were associated with fewer premature heartbeats than my usual pattern, and advise me whether I should add more Tai Chi sessions to help manage my PVCs and osteoarthritis?\n\n2. **Query + Analyse + Advice**  \n   Could you list the dates and times of all sleep apnea events recorded in March? Then analyse whether the nights with sleep apnea had lower sleep scores or more premature heartbeats than nights without apnea, and recommend bedtime habits or lifestyle changes to reduce these episodes while also considering my type 2 diabetes and light social drinking?\n\n3. **Query + Analyse + Advice**  \n   Please provide my daily step counts and sedentary counts for each day in March. Then analyse whether days with more sedentary periods were linked to higher premature heartbeat counts or lower sleep quality, and advise me on how many steps I should target and how often I should stand up or move to improve my heart health and manage my mild osteoarthritis."
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 4
+  },
+  {
+    "question": [
+      "\"Can you tell me my sleep onset time, total sleep duration, and sleep score on 2026-03-07, and also how many premature heartbeats were detected on 2026-03-10?\"",
+      "\"Based on my March data, can you tell me all the dates when my device recorded premature heartbeats or atrial fibrillation, and also give me advice on how to adjust my exercise and sleep habits to reduce these occurrences and improve my overall health?\"",
+      "\"Please query my March 2026 sleep and activity summary: what were my average sleep onset time, average sleep duration, average sleep score, total exercise sessions, and total exercise kilocalories? Then analyse whether the days with premature heartbeat or sleep apnea events had shorter sleep durations, lower sleep scores, or more sedentary periods compared with the rest of the month.\"",
+      "Can you tell me my exercise record on 2026-03-05, my health data on 2026-03-10, and my activity data on 2026-03-15?",
+      "Can you tell me how many times premature heartbeats were detected in March 2026 and on which dates? Also, what was my total calories burned from exercise this month? Finally, based on my sleep and heart health data, what advice would you give me to improve my sleep and reduce heart palpitations?",
+      "Based on my March data, can you (1) list all dates when premature heartbeats were detected, along with my total sleep duration and sleep score on those dates; (2) analyze whether those days tended to have shorter sleep or lower sleep scores than days without premature heartbeats; and (3) give me personalized advice, given my irregular sleep schedule and stress-related palpitations, on how to improve my sleep and reduce premature heartbeat events?"
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 5
+  },
+  {
+    "question": [
+      "I’d like to ask: What was my total step count for March 2026, and on which dates did my wearable detect at least one episode of atrial fibrillation?",
+      "\"How many days in March did I record at least one atrial fibrillation episode, and based on my sleep and activity data, what advice can you give me to improve my sleep quality and reduce these episodes?\"",
+      "Based on my March data, I have a few questions:\n\n1. **Query + Analyse:** Can you tell me on which days I had at least one atrial fibrillation episode, and also analyze whether those days were associated with shorter sleep durations or lower sleep scores?\n\n2. **Query + Analyse:** What were my total sleep durations, sleep scores, and atrial fibrillation counts each week in March? Please analyze whether my atrial fibrillation episodes were more frequent during weeks with poorer sleep.\n\n3. **Query + Analyse:** Please list the days when I had premature heartbeats or sleep apnea events, and analyze whether they tended to occur on days with higher or lower physical activity (steps or calories burned).",
+      "\"Could you tell me my total sleep duration on March 2, the number of atrial fibrillation episodes detected on March 7, and how many steps I took on March 21?\"",
+      "What was my average daily sedentary count over the past month, and on which dates did my sleep score fall below 70? Also, what advice can you give me to improve my sleep quality while working rotating shifts?",
+      "\"Based on my March 2026 health and activity data, could you tell me how many atrial fibrillation episodes I had in total and what my average sleep duration was? Then, please analyze whether my atrial fibrillation episodes or sleep scores seem related to my daily step counts, exercise calories, or sedentary periods, and give me practical advice on how to improve my sleep quality and reduce AFib episodes while coping with my rotating shift work and age?\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 6
+  },
+  {
+    "question": [
+      "On 2026-03-14, what were my total steps and calories burned, and how many sleep apnea events were detected during my sleep that night?",
+      "Here are some questions that combine both **query** and **advice**:\n\n1. **What were my sleep scores and the number of detected sleep apnea events each day in March, and based on my sleep apnea diagnosis and current results, what advice can you give me to improve my sleep quality and reduce apnea episodes?**\n\n2. **Can you show me my daily exercise type, duration, and calories burned for the days I exercised in March, and then advise me on an exercise plan that fits my busy travel schedule and helps with weight management?**\n\n3. **Please summarize my monthly step counts, sedentary periods, and daily calorie consumption from the recorded data, and give me recommendations on how I can reduce prolonged sitting and maintain a healthier activity level while traveling for work?**",
+      "Assistant, could you show me my sleep score, total sleep duration, sleep onset time, and number of sleep apnea events on 2026-03-14? Then, please analyze how my overall sleep quality across the month relates to my exercise days and daily step counts.",
+      "I have a few data queries for you:\n\n1. What was my total step count on 2026-03-14?\n2. What was my sleep score on 2026-03-08?\n3. What exercise did I do on 2026-03-18, and how many calories did it burn?",
+      "Based on your data, how many sleep apnea events did I have in March, and on which dates did I exercise? Also, given my sleep apnea and irregular exercise routine, what advice can you give me?",
+      "Question: “Can you query my daily step counts and sleep scores for March, analyse how my exercise days relate to my sleep apnea occurrences, and then give me advice on how to improve my sleep and reduce my sedentary time?”"
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 7
+  },
+  {
+    "question": [
+      "Can you tell me my total steps, calories burned, and number of sedentary periods on March 1, and also report any premature heartbeats detected that day?",
+      "\"How many days in March did I have detected premature heartbeats, and can you give me advice on how to modify my training schedule to reduce these episodes given my current activity levels?\"",
+      "Sure! Here are my questions that combine both **query** and **analyse** intentions:\n\n1. **Query + Analyse:**  \n   Please show me my daily step count and daily calorie expenditure for each day from March 1 to March 7, and then analyze whether the days with high-intensity morning workouts (such as HIIT, Spin, or Circuit Training) also tended to have higher daily calorie expenditure or more premature heartbeat detections.\n\n2. **Query + Analyse:**  \n   Can you list all my sleep scores and any recorded sleep apnea events during the month, and then analyze whether my sleep score or total sleep duration was lower on days when my last workout ended in the evening?\n\n3. **Query + Analyse:**  \n   What were the exact dates and times of every premature heartbeat detection recorded this month, and can you analyze whether these detections were more likely to occur on days with high-calorie exercise sessions (e.g., workouts burning more than 400 kilocalories) compared to lighter exercise days?",
+      "Could you pull up my data for **2026-03-01** and answer these three queries:  \n1. What were all my exercise sessions that day, including the type, start/end time, and calories burned?  \n2. What were my health readings that day, such as premature heartbeats, sleep apnea episodes, sleep onset time, total sleep duration, and sleep score?  \n3. What was my full-day activity summary, including total steps, sedentary periods, and daily calories burned?",
+      "Assistant, can you tell me my total exercise calories burned on 2026-03-01 and the number of premature heartbeats detected on 2026-03-11? Also, based on those results, what advice do you have for adjusting my training to help reduce premature heartbeats?",
+      "\"Based on my data, please query my daily exercise calories, total steps, sleep scores, and premature heartbeat records for March 24–30; analyze whether there is a pattern between high training load (calories/steps) and lower sleep quality or more premature heartbeats; and then advise me on how to adjust my workout intensity or rest days to reduce premature heartbeats while maintaining my fitness level.\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 8
+  },
+  {
+    "question": [
+      "I have two queries:  \n1. On 2026-03-01, what was my total sleep duration and sleep score?  \n2. On 2026-03-02, what exercise did I do and how many kilocalories did I burn?",
+      "Here are some questions I would ask my smart wearable assistant, each combining a **query** with a request for **advice**:\n\n1. **Query + Advice**: “What was my total sleep duration and sleep score on March 28, and what advice can you give me to maintain that kind of sleep quality given my mild sleep apnea?”\n\n2. **Query + Advice**: “How many premature heartbeats were detected on March 6, and based on those readings plus my history of PACs/PVCs, do you have any advice about whether I should adjust my exercise intensity?”\n\n3. **Query + Advice**: “What was my highest daily step count in March, and what advice do you have for balancing my golf and walking days to keep my activity level healthy without overdoing it?”",
+      "\"Can you query my daily step counts, exercise type, sleep scores, and premature heartbeat counts for the first week of March, and then analyze whether days with more steps or longer exercise were associated with better sleep scores or fewer premature heartbeats?\"",
+      "\"On 2026-03-14, what was my exercise type and duration, how many premature heartbeats were detected during the day, and what was my total step count?\"",
+      "“From my March data, how many golf exercise sessions did I have, and what was my average sleep score? Also, can you give me advice on how to reduce premature heartbeats and manage sleep apnea?”",
+      "Hi assistant, please pull up my March exercise and health records: for each day, list the exercise type and the corresponding sleep score, number of premature heartbeats, and number of sleep apnea events. Then analyze whether golf days versus walking days show any pattern with my heart rhythm or sleep quality. Finally, based on my history of premature beats and mild sleep apnea, what advice do you have for adjusting my exercise routine or sleep habits to improve these health metrics?"
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 9
+  },
+  {
+    "question": [
+      "Assistant, what was my total sleep duration and sleep score on 2026-03-21, and how many steps did I take and how many sedentary periods did I have on that same day?",
+      "Here are some questions for the smart wearable assistant that combine **query** and **advice** intentions:\n\n1. **Query:** What were my sleep onset times, total sleep durations, and sleep scores for each day in March?  \n   **Advice:** Based on those sleep records and my late-night work schedule, what can I do to improve my sleep quality and duration?\n\n2. **Query:** How many exercise sessions did I have this month, and what were the exercise types, durations, and calories burned for each session?  \n   **Advice:** Given my mostly sedentary routine and irregular exercise, what kind of weekly exercise plan would you recommend for me?\n\n3. **Query:** On which dates did the device record atrial fibrillation, premature heartbeats, or sleep apnea events?  \n   **Advice:** What should I do about these health events, especially considering my anxiety disorder and chronic insufficient sleep?",
+      "Based on my March 2026 wearable data, can you provide my daily step counts, sedentary period counts, total sleep durations, sleep scores, and the number of premature heartbeat events recorded each day? Then, can you analyse whether days with higher step counts or fewer sedentary periods are linked to better sleep scores and fewer premature heartbeat events?",
+      "“Can you show me my personal profile, my exercise record on 2026-03-21, and my full health monitoring data on 2026-03-08?”",
+      "Hi assistant! I have a few questions:\n\n1. How many exercise sessions did I complete in March 2026?\n2. How many sleep apnea events were recorded in total during March 2026?\n3. Based on my sleep and health data, what advice can you give me to improve my sleep quality and reduce these events?",
+      "\"Based on my data from this past month, can you first tell me my total sleep duration, sleep score, and step count on March 8th, and also my average sleep duration across the whole month? Then, can you analyze whether my exercise days (like running, cycling, or hiking) seem to be associated with better or worse sleep quality and fewer premature heartbeats? Finally, based on all that, what specific advice would you give me to improve my sleep, reduce sedentary periods, and manage my premature heartbeat events?\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 10
+  },
+  {
+    "question": [
+      "“Could you tell me my total steps and the number of sedentary periods on March 22, 2026?”",
+      "\"Please show me my exercise and sleep data for 2026-03-15, including total steps, sleep duration, and sleep score. Also, based on the overall trends in this month's data, what advice can you give me to increase my daily activity and improve my sleep quality on workdays?\"",
+      "What was my total sleep duration and average sleep score for March, and can you analyze the trend between my daily step count and sleep quality across the month?",
+      "What were my total steps on 2026-03-07, my sleep score on 2026-03-22, and the number of detected atrial fibrillation episodes on 2026-03-10?",
+      "\"Can you tell me what my total sleep duration and sleep score were on March 8, and how many sedentary periods I had on March 25? Also, based on my activity and sleep patterns over the past month, what advice can you give me to improve my sleep quality and reduce sedentary behavior?\"",
+      "Could you please pull up my March data for each hiking day (March 7, 15, 22, and 29) and tell me the sleep duration, sleep score, total steps, and number of sedentary periods? Then analyze how those hiking days influenced my sleep quality and overall activity compared with non-hiking days, and finally give me personalized advice on how to improve my sleep and reduce sedentary time given my office job and occasional insomnia?"
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 11
+  },
+  {
+    "question": [
+      "What was my total step count on March 14, and what was my sleep score that night?",
+      "Assistant, how many sleep apnea events did I have on 2026-03-09, and what advice do you have to help me reduce sleep apnea and improve my sleep score?",
+      "Can you query my daily sleep apnea events, sleep onset time, total sleep duration, and sleep score for each day in March, and then analyze whether days with exercise (and the type of exercise) are associated with fewer sleep apnea events or better sleep scores compared with days without exercise?",
+      "On 2026-03-10, what type of exercise did I do, how many sleep apnea events did I have, and how many steps did I take?",
+      "What was my total sleep duration on March 3, and how many steps did I take on March 5? Additionally, since I have sleep apnea, can you give me advice on how to reduce apnea episodes and improve my sleep quality?",
+      "\"Based on my March data, can you first tell me how many days I exercised and how many total sleep apnea events I had? Then, please analyze whether my sleep scores were better on days when I exercised compared to non-exercise days. Finally, what advice can you give me to improve my sleep quality and reduce apnea episodes, considering my sleep apnea diagnosis?\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 12
+  },
+  {
+    "question": [
+      "Can you tell me my step count and the number of sleep apnea episodes on March 23?",
+      "Hi! Based on my data, can you tell me how many premature heartbeats were detected on March 7, and what my sleep score and sleep duration were that day? Also, given my history of premature beats and borderline hypertension, what advice do you have to help me improve my heart health and sleep quality?",
+      "\"Can you show me my daily exercise duration and premature heartbeat count for each day in March, and then analyze whether there is any clear pattern between the days I exercised longer and the number of premature heartbeats I experienced?\"",
+      "Assistant, I have three queries:  \n1. What was my walking exercise duration and calorie burn on March 2?  \n2. How many premature heartbeats were detected on March 7?  \n3. What were my total sleep duration and sleep score on March 15?",
+      "\"Can you tell me my total steps on March 3 and my sleep duration on March 7, as well as how many times premature heartbeats were detected on March 18? Also, based on my exercise and health data this month, what advice can you give me to improve my heart health and sleep quality?\"",
+      "\"Can you tell me my average daily steps and the total number of premature heartbeat events recorded this month? Also, please analyze whether there is any pattern between my sleep scores and the days when premature heartbeats occurred, and then give me advice on how to reduce premature heartbeats and improve my sleep quality given my medical history and lifestyle?\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 13
+  },
+  {
+    "question": [
+      "I have two questions: On 2026-03-07, what were my total steps and how many sedentary periods did I have? And on 2026-03-08, what was my total sleep duration and sleep score?",
+      "Here are my questions for the smart wearable assistant:\n\n1. **Query + Advice:** From this month’s health data, how many days did my wearable record at least one atrial fibrillation episode, and what were the dates and times of those episodes? Given that I have atrial fibrillation and take blood thinners, what practical advice do you have for managing these episodes?\n\n2. **Query + Advice:** What were my step counts, sedentary periods, and total daily calories burned on the days I did volunteer gardening or community volunteer work, specifically on March 7, March 14, and March 28? Based on my age and heart condition, what advice can you give me for safely pacing these volunteer activities?\n\n3. **Query + Advice:** What were my sleep onset time, total sleep duration, and sleep score on the night with my best sleep quality this month? What sleep hygiene advice would you recommend to help me maintain that kind of sleep pattern?",
+      "Here are some questions that combine both **query** and **analyse** intentions:\n\n1. **Can you list the dates in March when my wearable detected at least one atrial fibrillation episode, and then analyse whether those days tended to have lower sleep scores or more sedentary periods compared to days without atrial fibrillation?**\n\n2. **What were my daily step counts and exercise calories on March 7, 14, and 28 — the days I did extra volunteer activities — and can you analyse whether higher activity days were associated with fewer atrial fibrillation episodes?**\n\n3. **Please show my sleep onset time, total sleep duration, and sleep score for every day in March, and analyse whether my sleep quality was noticeably worse on days when atrial fibrillation was detected.**",
+      "Could you tell me what my morning walk duration and calories burned were on March 7, what my total sleep duration and sleep score were on March 20, and how many atrial fibrillation episodes were detected on March 12?",
+      "\"Over the past month, how many times was atrial fibrillation detected, and what was my average sleep score? Also, could you provide advice on how I can improve my sleep quality and reduce these episodes?\"",
+      "Could you please query my March data for the days when atrial fibrillation was detected, along with my daily step counts, total sleep durations, and sleep scores? Then analyse whether there is any pattern between my morning walk duration or step count and AFib episodes or sleep quality, and finally advise me on how to adjust my daily activities and sleep habits to reduce AFib episodes and improve my sleep?"
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 14
+  },
+  {
+    "question": [
+      "\"What was my total sleep duration and how many premature heartbeats were detected on 2026-03-02?\"",
+      "Smart wearable assistant, what was my average total sleep duration in March 2026, and can you give me specific advice on how to improve my sleep and manage my diabetes better?",
+      "Query + Analyse:  \n“Can you retrieve my total sleep duration, sleep score, and number of sleep apnea events on 2026-03-01, 2026-03-09, and 2026-03-23, and then analyze whether my sleep quality tends to be worse on days with lower step counts or more sedentary periods?”",
+      "Assistant, on March 23, 2026, what was my total sleep duration, how many sleep apnea episodes did I have, and what was my total step count for that day?",
+      "\"Can you tell me my complete exercise record on 2026-03-20—including exercise type, start/end times, duration, and calories burned—and my health record on 2026-03-23, including atrial fibrillation, premature heartbeats, sleep apnea events, sleep onset time, total sleep duration, and sleep score? Also, based on my overall activity and sleep patterns, what advice can you give me to improve my sleep and help manage my diabetes?\"",
+      "Assistant, based on my March 1–24 data:\n\n1. **Query:** What were my daily sleep durations, sleep scores, and premature heartbeat counts?\n2. **Analyse:** Is there any pattern or relationship between my sleep quality and the days when premature heartbeats were detected?\n3. **Advice:** Given my chronic short sleep and diabetes, what specific recommendations do you have to improve my sleep and reduce premature heartbeats?"
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 15
+  },
+  {
+    "question": [
+      "On 2026-03-03, which exercises did I perform, and what was my total daily calorie consumption?",
+      "Based on my March data, on which dates and times were premature heartbeats or sleep apnea events detected? Also, given that I am a 28-year-old nurse with a history of premature beats and rotating shift work, what advice can you give me to improve my sleep and reduce heart rhythm issues based on my recorded sleep and activity data?",
+      "Please query my daily sleep duration, sleep score, and premature heartbeat events from March 1 to March 30, and then analyze whether there is any pattern between my sleep quality and the occurrence of premature heartbeats.",
+      "Please provide my exercise records for 2026-03-21, the health data regarding premature heartbeats and atrial fibrillation for that date, and the activity data including total steps, calories burned, and sedentary periods.",
+      "Assistant, can you tell me: (1) On March 3, how many premature heartbeats were detected and what was my total sleep duration? (2) On March 7, what exercise did I do and how many calories did I burn? (3) Given my history of premature beats and rotating shift work, what advice do you have for exercise and sleep to help keep my heart healthy?",
+      "1. \"On March 7, what were my total sleep duration and sleep score, and how did my 75-minute swimming session that day (480 kcal) relate to my sleep quality? Based on my rotating shift work, what advice would you give to keep my sleep consistent across different schedules?\"\n\n2. \"How many premature heartbeats were detected on March 20, and can you analyze whether my premature beat occurrences are more frequent on days with exercise or on rest days? Given my history of premature beats, what lifestyle or monitoring recommendations would you suggest?\"\n\n3. \"Which exercises did I do on March 18, and what was the total calorie burn? Please analyze my step count and sedentary periods during the first three weeks of March for any trends, and then advise me on ways to reduce prolonged sitting during my nursing shifts.\"\n\n4. \"What was my daily calorie consumption on March 9? Please analyze the relationship between my sleep apnea events and sleep scores across the month, and provide recommendations to lower apnea frequency and improve my overall sleep quality.\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 16
+  },
+  {
+    "question": [
+      "I have two query requests for my March 2026 data:\n\n1. What were my total steps, total calories burned, and total sedentary count for each day across the month?  \n2. What were my daily health records during March 2026, such as heart rate and sleep duration?",
+      "\"Can you pull up my average daily steps and sleep duration from the activity and health data over the past week, and then give me personalized advice on how to adjust my exercise schedule to help manage my sleep apnea and obesity given my frequent business travel and irregular meal timing?\"",
+      "1. \"Can you show me my daily step count, calories burned, and sedentary count from March 2026, and then analyze the relationship between my sedentary time and daily calorie expenditure?\"\n\n2. \"Can you retrieve my workout records and health monitoring data for the month, such as exercise sessions and sleep-related metrics, and analyze whether my gym frequency is associated with better sleep quality or recovery?\"",
+      "Could you please show me my sport data, health data, and activity data for every day from March 1 to March 30, 2026?",
+      "\"Based on my data in March 2026, what were my total steps and average daily calories burned? Also, what was my average sleep duration? Then, given my sleep apnea and mild obesity, what exercise and dietary advice can you give me to improve my condition?\"",
+      "Here are some questions that combine **query**, **analyse**, and **advice** intentions for your smart wearable assistant:\n\n1. **Query + Analyse + Advice**  \n   “For last week (March 23–29), what were my average daily steps, calories burned, and sedentary count? Please analyse how that week compares with the earlier part of March, and then advise me on how to adjust my exercise routine given my mild obesity and frequent business travel.”\n\n2. **Query + Analyse + Advice**  \n   “What were my average sleep duration and blood oxygen levels over the past month? Analyse these health data trends in relation to my diagnosed sleep apnea, and recommend practical lifestyle changes that account for my irregular meals and moderate alcohol intake.”\n\n3. **Query + Analyse + Advice**  \n   “Based on this month’s sport and activity data, what was my total gym exercise time and my typical resting heart rate? Also analyse whether my weekly activity level is sufficient for a 38-year-old sales representative with mild obesity, and give me specific exercise and dietary advice to improve my fitness and manage my weight.”"
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 17
+  },
+  {
+    "question": [
+      "I’d like to ask two things:\n\n1. What exercise did I do on 2026-03-14, including the exercise type, start/end times, duration, and calories burned?  \n2. What were my sleep details on 2026-03-20, including sleep onset time, total sleep duration, and sleep score?",
+      "Here are some questions that combine both **query** and **advice** intentions:\n\n1. On March 2, what were my sleep apnea episodes and premature heartbeat readings? Given my chronic short sleep and anxiety, what advice do you have for reducing these nighttime events?\n\n2. On March 6, March 15, March 20, and March 26, what were my total sleep duration, sleep score, and daily step count? Since those were days without recorded exercise, what advice can you give me to improve my sleep and activity on rest days?\n\n3. On March 14, what were my total steps, daily calorie consumption, and sleep score? And can you advise me on how to balance yoga and walking so I can improve my sleep quality?",
+      "Could you please query my daily sleep duration, sleep score, premature heartbeat detections, sleep apnea detections, and sedentary periods from March 1 to March 30? Then analyze how my sleep quality may be related to those health events and my daily activity levels.",
+      "Can you pull up my exercise record for March 14 (exercise type, duration, calories burned), my health data for that day (premature heartbeat count, sleep apnea count, total sleep duration, and sleep score), and my activity summary (total steps, sedentary periods, and total daily calories burned)?",
+      "Could you tell me:\n\n1. On 2026-03-01, what was my total sleep duration, sleep score, and number of premature heartbeat events?\n2. On 2026-03-14, what were my total steps, sedentary periods, and daily calorie consumption?\n3. Based on my history of anxiety and chronic short sleep, what advice can you give me to improve my sleep duration and sleep quality?",
+      "\"Based on this month's data, what were my average nightly sleep duration and average daily steps? Can you analyze how my sleep apnea events and sleep scores changed over the month, and then give me practical advice on improving my sleep quality and managing anxiety?\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 18
+  },
+  {
+    "question": [
+      "\"What was my total number of atrial fibrillation episodes in March, and what was my average sleep duration across the month?\"",
+      "\"From this month's data, how many days did I have at least one atrial fibrillation episode and what was my total sleep duration on those days? Also, what advice can you give me to reduce my AF episodes and improve my sleep quality given my irregular sleep patterns and sleep apnea?\"",
+      "Here are some questions for the smart wearable device assistant that combine both **query** and **analyse**:\n\n1. **Can you retrieve the total number of atrial fibrillation episodes, premature heartbeats, and sleep apnea events I had in March, and then analyze whether days with more atrial fibrillation also tended to have more sleep apnea episodes or more sedentary periods?**\n\n2. **What were my total exercise minutes and calories burned for each type of exercise over the month, and can you analyze how my daily step count and sedentary periods differed between days when I exercised versus days when I did not?**\n\n3. **Please list my sleep onset times, total sleep durations, and sleep scores for the month, and analyze whether shorter sleep duration or lower sleep scores were associated with more frequent sleep apnea events?**",
+      "Can you show me my exercise records, my health monitoring data (like atrial fibrillation, premature heartbeats, sleep apnea, and sleep details), and my daily activity data (steps, calories, and sedentary periods) for March 2026?",
+      "Can you tell me from this month’s data how many atrial fibrillation episodes and premature heartbeats were recorded each day, and what my average total sleep duration was? Then, given my atrial fibrillation, sleep apnea, and irregular sleep, please advise me on what changes I should make to improve my heart health and sleep quality.",
+      "Here are several questions for the smart wearable device assistant, each combining multiple intentions:\n\n1. **Query + Analyse + Advice**:  \n   \"What was my average daily calorie expenditure and total number of sedentary periods in March? Can you analyze whether my sedentary periods were related to my atrial fibrillation episodes, and then advise me on how to reduce sedentary time to improve my heart health?\"\n\n2. **Query + Analyse + Advice**:  \n   \"How many sleep apnea events did I have on nights following exercise days compared with days with no exercise? Please analyze any pattern between evening exercise and sleep apnea severity, and advise me on the best time of day to exercise given my sleep apnea and atrial fibrillation.\"\n\n3. **Query + Analyse + Advice**:  \n   \"On days when I experienced premature heartbeats, what were my total steps and exercise minutes? Can you analyze whether there is a connection between premature heartbeats and exercise intensity, and what recommendations do you have for managing premature heartbeats alongside my existing atrial fibrillation?\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 19
+  },
+  {
+    "question": [
+      "Assistant, on 2026-03-10, what was my total step count, and how many minutes did I spend on walking exercise?",
+      "“Could you tell me my total steps and sleep score on 2026-03-22? Also, based on my daily walking records and overall health data this month, what advice do you have to help me maintain my current healthy lifestyle?”",
+      "Here are some questions to my smart wearable assistant that combine both **query** and **analyse** intentions:\n\n1. **Query + Analyse**:  \n   \"What were my average daily steps and average sleep duration in March? Also, please analyse whether my sleep score tends to be higher on days when I have fewer sedentary periods.\"\n\n2. **Query + Analyse**:  \n   \"On which days did I do exercise sessions of at least 50 minutes, and how many kilocalories did I burn in total during those sessions? Then, please analyse whether longer exercise sessions were associated with higher or lower daily total calorie consumption.\"\n\n3. **Query + Analyse**:  \n   \"Please give me my daily step counts for the week of March 16–22. Can you analyse whether the days with more steps also had better sleep scores and fewer sedentary periods?\"",
+      "Assistant, could you tell me for 2026-03-10: what exercise did I do and how long did it last, what was my sleep score, and how many total steps did I take that day?",
+      "Hi, could you tell me what my total steps and sleep score were on March 22? And based on my overall March data, what advice would you give me to maintain or improve my sleep and physical activity?",
+      "Here are some questions to my smart wearable assistant that combine multiple intentions:\n\n1. **Query + Analyse:**  \n   What were my average daily steps, average sleep duration, total exercise kilocalories, and the number of days with 2 or fewer sedentary periods in March? Also, was there any visible trend between my daily exercise duration and sleep score?\n\n2. **Query + Advice:**  \n   On the days when I did 50 minutes or more of walking, what were my sleep scores and daily calorie expenditure? Based on those records, what advice would you give me to maintain a good activity level at 68 years old?\n\n3. **Analyse + Advice:**  \n   Please analyse my March health data to see whether longer sleep duration was linked with better sleep scores, and whether more sedentary periods affected my daily calorie burn. Based on this analysis, what specific health recommendations would you give me?"
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 20
+  },
+  {
+    "question": [
+      "\"What was my total sleep duration on 2026-03-01, and how many steps did I take on 2026-03-20?\"",
+      "1. “What were my total steps and sedentary periods on March 20 and March 24, and based on my overall activity pattern, what advice do you have for reducing sedentary time on low-activity days?”\n\n2. “Please show my sleep scores for days when I exercised versus days when I did not, and what sleep advice would you recommend to help with my frequent late nights and occasional insomnia?”",
+      "\"In March 2026, what were my daily step counts, sleep durations, and sleep scores on days when I exercised, and can you analyze whether exercising was associated with better sleep quality or higher daily activity levels?\"",
+      "Assistant, can you give me my wearable data for 2026-03-07, 2026-03-20, and 2026-03-28? I have three queries:  \n1. What exercise did I do on those days, including the type, duration, and calories burned?  \n2. What were my health readings on those days, including sleep onset time, total sleep duration, sleep score, and any detected atrial fibrillation or premature heartbeat events?  \n3. What were my activity records on those days, including total steps, sedentary periods, and daily calorie consumption?",
+      "Could you tell me what exercise I did on 2026-03-20 and what my sleep score was on 2026-03-24? Also, based on my sleep and activity patterns, what advice can you give me to improve my sleep quality and reduce sedentary time?",
+      "Here are some questions that combine multiple intentions for your smart wearable assistant:\n\n1. **Query + Analysis**  \n   \"What were the dates, durations, and calories burned for my running exercises in March, and can you analyze whether my daily step counts on those running days were higher than my monthly average?\"\n\n2. **Analysis + Advice**  \n   \"Please analyze the relationship between my sedentary periods and sleep scores over the past month, especially on days with the most sitting and the lowest sleep quality, and then give me practical advice on how to reduce sedentary time and improve my sleep.\"\n\n3. **Query + Analysis + Advice**  \n   \"Which days had premature heartbeat or sleep apnea events, what were my sleep scores on those days, and based on that data, can you analyze any patterns and recommend lifestyle changes to improve my heart health and sleep quality?\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 21
+  },
+  {
+    "question": [
+      "Hey assistant, could you tell me my total exercise calories on 2026-03-05, and how many times atrial fibrillation was detected on 2026-03-07?",
+      "1. \"Can you tell me my total exercise calories burned and step count on 2026-03-28? Based on that and my atrial fibrillation history, what advice do you have for safely maintaining high-intensity training?\"\n\n2. \"Which dates in March 2026 had at least one premature heartbeat recorded? What health recommendations would you give me to help reduce premature heartbeat episodes?\"\n\n3. \"What was my total sleep duration and sleep score on 2026-03-13? Given that I also had sleep apnea events that night and have atrial fibrillation, what sleep-focused health advice can you offer me?\"",
+      "Can you query my total sleep duration and sleep score on 2026-03-13, and then analyze whether the two sleep apnea events that night explain why my sleep score was lower than my monthly average?",
+      "Assistant, could you pull up my exercise details for March 5 (total duration and calories burned), my cardiac health events for March 19 (atrial fibrillation and premature heartbeat counts), and my sleep score plus total steps for March 28?",
+      "Hi assistant, I have two queries and one advice request:\n\n1. **Query:** From the March data, on which dates did I have atrial fibrillation episodes, and what were my sleep duration and sleep score on those nights?\n\n2. **Query:** On March 5 and March 21, I did both running and swimming—what were my total exercise calories burned on each of those two days?\n\n3. **Advice:** Based on my atrial fibrillation history and the patterns in my sleep, exercise, and daily activity data, what recommendations do you have for exercise intensity, sleep habits, and daily activity to reduce AFib episodes and improve my overall health?",
+      "Here are three questions that combine the **query**, **analyse**, and **advice** intentions:\n\n1. \"Can you tell me my steps, sedentary periods, and sleep score on March 7 and March 29? Then please analyse how those days compare with my monthly averages and how they relate to the atrial fibrillation episodes I had on those days. Finally, what advice would you give me to help reduce atrial fibrillation episodes while keeping my active lifestyle?\"\n\n2. \"Which days in March did I have premature heartbeats, and what exercise was recorded on each of those days? Please analyse whether there is a pattern between premature heartbeats and the type or intensity of exercise. Based on that analysis, what changes to my workout routine would you recommend to minimize premature heartbeats?\"\n\n3. \"On the days with no recorded exercise—March 13, 15, 23, 26, and 29—what were my sleep score, total sleep duration, and number of sedentary periods? Please analyse how these rest-day sleep and sedentary metrics compare with my active days, and advise me on what I should do on rest days to improve sleep quality and reduce prolonged sitting.\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 22
+  },
+  {
+    "question": [
+      "Can you tell me my sleep onset time, total sleep duration, and sleep score on 2026-03-26, as well as my total steps and daily calorie consumption on the same day?",
+      "\"From my March data, can you tell me how many days I exercised, what my total exercise calories were, and how many sleep apnea events were recorded overall? Also, what advice can you give me to improve my exercise consistency and manage my sleep apnea better, considering my hypertension and CPAP use?\"",
+      "Here are some questions for the smart wearable device assistant that combine query and analyse intentions:\n\n1. On March 15, what were my total steps and daily calorie consumption? Also, can you analyze how my daily step count changed over the month?\n\n2. On March 3, what exercise did I do and how many calories did I burn? Can you analyze whether the days I exercised were associated with better sleep scores?\n\n3. How many sleep apnea events were detected on March 10, and can you analyze the overall trend of my sleep apnea episodes across March?",
+      "Can you look up and report:  \n(1) my sport record on 2026-03-03, including exercise type, duration, and calories burned;  \n(2) my health data on 2026-03-07, including premature heartbeat events, sleep apnea events, and sleep score;  \n(3) my activity data on 2026-03-10, including total steps, sedentary periods, and daily calories burned?",
+      "Could you tell me which days in March I had sleep apnea events and what my average daily calorie consumption was? Additionally, based on my profile and health data, what advice do you have to improve my sleep quality and reduce my cardiovascular risk?",
+      "Assistant, I'd like you to look at my March data and help me with several things:\n\n1. **Query**: Please retrieve my total sleep duration, sleep score, and number of sleep apnea events for each day in March 2026.  \n   **Analyse**: Then analyze whether days with more sleep apnea events tend to have lower sleep scores.  \n   **Advice**: Based on that pattern, give me specific advice on improving my sleep, especially considering my sleep apnea and hypertension.\n\n2. **Query**: Please show me my exercise records (type, duration, calories) and the days when premature heartbeat events were detected.  \n   **Analyse**: Compare exercise days versus non-exercise days to see if there is a relationship between exercise and premature heartbeat occurrences or sleep quality.  \n   **Advice**: Recommend an exercise plan that fits my physically demanding construction job and helps manage my blood pressure and sleep apnea.\n\n3. **Query**: Please list my daily step counts, sedentary periods, and daily calorie consumption for the month.  \n   **Analyse**: Analyze whether high sedentary periods correlate with lower sleep scores or higher calorie consumption.  \n   **Advice**: Given that I have limited time for exercise and work long hours, advise me on how to reduce sedentary time and better balance my daily activity and calorie intake."
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 23
+  },
+  {
+    "question": [
+      "\"What was my total sleep duration and the number of premature heartbeats detected on 2026-03-27?\"",
+      "Could you tell me my sleep onset time, total sleep duration, and sleep score on 2026-03-06 and 2026-03-18? Also, based on these data, what advice can you give me to improve my sleep and reduce premature heartbeats?",
+      "\"Please retrieve my total sleep duration and the number of premature heartbeats for each day in March where I recorded exercise, and then analyse whether those exercise days tend to have better or worse sleep scores compared to the days I did not exercise.\"",
+      "Assistant, could you tell me for March 6, 2026: what exercise did I do, how many premature heartbeats were detected, and what were my total sleep duration, sleep score, and step count?",
+      "\"What were my sleep score and the number of premature heartbeats detected on March 6, and what advice can you give me to improve my sleep quality and reduce premature heartbeats given my shift work schedule?\"",
+      "Assistant, could you query my March 2026 data for the daily number of detected premature heartbeats, total sleep duration, sleep score, and step count; then analyze whether days with more premature heartbeats are linked to shorter sleep, lower sleep scores, or exercise days; and then advise me on how to improve my sleep and reduce premature beats given my shift work, high stress, and history of PVCs?"
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 24
+  },
+  {
+    "question": [
+      "\"Dear assistant, on 2026-03-14, what was my exercise record — exercise type, duration, and calories burned — and what were my health data that day, including sleep score and the number of atrial fibrillation episodes detected?\"",
+      "Here are some questions combining both **query** and **advice**:\n\n1. **Query:** How many atrial fibrillation episodes and premature heartbeats were recorded on March 4?  \n   **Advice:** Based on my history of atrial fibrillation, what should I do if I see similar readings again?\n\n2. **Query:** What were my step count, total exercise calories, and number of sedentary periods on March 14?  \n   **Advice:** Given my arthritis and active retirement lifestyle, what daily step goal and exercise types would you recommend to stay fit without overdoing it?\n\n3. **Query:** On March 18, what was my sleep onset time, total sleep duration, and sleep score?  \n   **Advice:** Can you give me advice on how to improve my sleep on nights when my sleep score is low?",
+      "Can you show me my daily sleep score, sleep duration, atrial fibrillation episodes, and premature heartbeat episodes for every date in March, and then analyze whether days with atrial fibrillation or premature heartbeats tend to have lower sleep quality or more sedentary periods?",
+      "\"Can you show me my daily walking exercise calories, the dates when atrial fibrillation was detected, and my monthly average sleep score?\"",
+      "1. **Query:** On 2026-03-04, what was my sleep onset time, total sleep duration, sleep score, and total step count?\n\n2. **Query:** On 2026-03-12, how many atrial fibrillation episodes and premature heartbeats were detected, and at what times?\n\n3. **Advice:** Given my history of atrial fibrillation and mild arthritis, what exercise and daily routine recommendations would you suggest based on my March activity, heart health, and sleep data to help improve my sleep quality and maintain heart health?",
+      "\"Could you first pull up my atrial fibrillation episodes and premature heartbeat counts for each day in March, along with my daily sleep scores and exercise types; then analyse whether there's any pattern linking my AFib/PVC days to sleep quality or the type of activity I did; and finally advise me on the best exercise plan for my age, atrial fibrillation history, and arthritis to keep me active while minimizing risks?\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 25
+  },
+  {
+    "question": [
+      "Could you tell me what exercise I did on March 7, 2026, including the start time, end time, duration, and calories burned, and also report my total sleep duration and sleep score for that night?",
+      "Could you tell me my average daily step count for March and the specific days when I had premature heartbeats? Also, based on my activity and sleep data from this month, could you give me advice on how to reduce premature heartbeats and improve my sleep quality?",
+      "\"Could you please pull up my daily step counts, daily calorie consumption, and sleep scores for the whole month, and then analyze whether there is a pattern between lower sleep scores and reduced activity or calories the next day? Also, please identify the days when premature heartbeats were detected, and analyze whether those days were linked to higher exercise intensity or lower sleep quality?\"",
+      "On March 1, what was my total sleep duration? On March 5, what exercise did I do and how many kilocalories did it burn? On March 10, what were my step count and sedentary periods?",
+      "\"Could you tell me what exercise I did on March 7 and how long it lasted, and also what my total sleep duration was on March 28? In addition, based on my recent health data, what advice do you have to reduce the number of premature heartbeats I experienced?\"",
+      "Assistant, can you:\n\n1. **Query** my March average daily steps, average sleep score, and total exercise calories burned from the health/activity data, then **analyse** whether my sleep scores were related to my daily exercise intensity or duration, and **advise** me on how to structure my weekly training and rest days around my 5–6 daily fitness classes?\n\n2. **Query** all recorded premature heartbeat events with dates and times from last month, **analyse** whether they occurred on days with higher training load or longer exercise sessions, and **advise** me whether I need to adjust my recovery routine or seek further monitoring?"
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 26
+  },
+  {
+    "question": [
+      "\"Can you tell me how many sleep apnea events I had on March 10, and also what my total step count was on March 28?\"",
+      "\"Hi assistant, could you look up my March data to tell me how many golf sessions I completed and what my average sleep score was on those golf days? Also, given my sleep apnea, prediabetes, and sedentary job, what advice can you give me to improve my sleep quality and reduce my sedentary time?\"",
+      "Smart wearable assistant, please query my March 2026 data: on the days I played golf (3/6, 3/13, 3/21, 3/28), what were my total sleep duration, sleep score, and number of sleep apnea events? Then analyze whether those golf days show better sleep quality and lower apnea frequency compared with non-golf days, and whether days with higher step counts also align with higher sleep scores.",
+      "Can you show me for **2026-03-21**:  \n1. my **golf exercise record** (start time, end time, duration, calories burned),  \n2. my **health monitoring record** (atrial fibrillation events, premature heartbeats, sleep apnea events, sleep onset time, total sleep duration, sleep score),  \n3. and my **activity record** (total steps, sedentary periods, total daily calories burned)?",
+      "\"First, what was my total sleep duration and sleep score on March 10? Second, how many sleep apnea events were detected on March 5? Finally, based on my sleep apnea, pre-diabetes, and high cholesterol, what health advice can you give me to improve my sleep and reduce cardiovascular risk?\"",
+      "\"Can you query my average sleep duration, sleep scores, and total premature heartbeat events over the past month, then analyse whether my golf exercise days (March 6, 13, 21, 28) show better sleep quality or fewer heart irregularities compared to my non-exercise days, and finally give me personalized advice on exercise timing, sleep schedule, and alcohol intake to help manage my sleep apnea, pre-diabetes, and high cholesterol?\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 27
+  },
+  {
+    "question": [
+      "Can you show me my health data for March 7, including any atrial fibrillation episodes, sleep apnea events, sleep onset time, total sleep duration, and sleep score? Also, can you show me my activity data for March 15, including total steps, sedentary periods, and daily calorie consumption?",
+      "1. What was my average sleep score and average total sleep duration over the past month, and based on those readings, what advice do you have for improving my sleep quality?  \n2. How many days in March did I record at least one atrial fibrillation episode, and what lifestyle or exercise recommendations would you suggest to help reduce these episodes?  \n3. On the days when I did gardening (March 3, 15, and 27), what were my daily step counts and total daily calories burned, and do you recommend I continue with that level of gardening given my osteoporosis?  \n4. What were my highest and lowest daily step counts this month, and what exercise advice can you give me to maintain a moderate activity level without overexerting myself?  \n5. How many sleep apnea events were recorded in total this month, and what practical advice can you offer to help reduce sleep apnea episodes?",
+      "Please query my March 2026 health data to list all dates when atrial fibrillation was detected, along with that day’s sleep duration, sleep score, and any sleep apnea events. Then analyse whether days with atrial fibrillation tend to have poorer sleep quality or more sleep apnea events compared to days without atrial fibrillation.",
+      "I’d like to ask a few things about my data from this month:  \n\n1. What were my total steps for the whole month?  \n2. On which day did I have the most sedentary periods, and how many were there?  \n3. What was my average sleep score across all days?",
+      "Assistant, how many atrial fibrillation episodes were recorded on March 7, and what was my total sleep duration that night? Also, given my atrial fibrillation and occasional insomnia, what advice do you have to help me improve my sleep and reduce AFib episodes?",
+      "1. \"What was my sleep score on March 22, and can you analyse whether nights with sleep apnea events generally had lower sleep scores, and what advice can you give me to reduce sleep apnea and improve my sleep?\"\n\n2. \"On March 15, how many steps did I take and how many sedentary periods did I have, and can you analyse the relationship between my daily step counts and sedentary periods across the whole month, and based on that, what advice do you have to help me stay active while protecting my osteoporosis?\"\n\n3. \"What was my total exercise duration on March 27, and can you analyse the trend in my atrial fibrillation episodes over the month, and based on those trends, what recommendations do you have for managing AFib during exercise?\""
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 28
+  },
+  {
+    "question": [
+      "Could you tell me my total step count on 2026-03-08, and how many premature heartbeats were detected on 2026-03-09?",
+      "From my March data, can you tell me how many days I had premature heartbeat events and which days I had sleep apnea? Also, based on those results and my borderline hypertension, what exercise and dietary advice would you recommend to improve my heart health and sleep quality?",
+      "Could you retrieve my daily steps, calories burned, and sleep scores for the week of March 1–7, and then analyze whether higher daily step counts are associated with better sleep scores or fewer premature heartbeat events?",
+      "On 2026-03-16, what was my total sleep duration, total step count, and number of sleep apnea events detected during sleep?",
+      "Can you tell me the number of premature heartbeats detected on 2026-03-05 and my total sleep duration on 2026-03-10? Also, based on my overall health data and lifestyle, what advice do you have for managing my premature heartbeats and improving my sleep quality?",
+      "Here are some multi-intention questions for the smart wearable assistant:\n\n1. Could you look up my sleep duration, sleep score, and premature heartbeat count for 2026-03-02, then analyze how those compare with days when I exercised, and give me advice on improving my sleep and reducing premature heartbeats?"
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 29
+  },
+  {
+    "question": [
+      "Assistant, on March 7, what exercise did I do and how many calories did I burn? And what was my total sleep duration and sleep score that day?",
+      "“Can you tell me how many premature heartbeats were recorded in total during March, and on which dates they occurred? Also, based on my sleep and activity data, what advice would you give me to improve my heart health and sleep regularity?”",
+      "Can you show me my exercise records and sleep data (sleep onset time, total sleep duration, and sleep score) for all the days in March when I had at least one premature heartbeat, and then analyze whether those events seem to be linked to my irregular sleep schedule or lower activity levels?",
+      "On March 7, 2026, what exercise did I do and how many calories did I burn, what was my total sleep duration and sleep score, and how many steps and sedentary periods did I have?",
+      "\"Can you tell me what my total sleep duration and average sleep score were over the past month, and then recommend some lifestyle changes to help me get more consistent sleep?\"",
+      "Here are some questions you could ask your smart wearable device assistant, each containing multiple intentions:\n\n1. \"Can you show me my sleep onset time, total sleep duration, and sleep score for each day in March? Then analyze how my sleep quality changed on days when I exercised compared to days when I didn’t, and give me personalized advice to improve my sleep regularity and sleep score."
+    ],
+    "intents": [
+      "query, query",
+      "query, advice",
+      "query, analyse",
+      "query, query, query",
+      "query, query, advice",
+      "query, analyse, advice"
+    ],
+    "role_id": 30
+  }
+]

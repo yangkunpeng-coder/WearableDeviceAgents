@@ -1,0 +1,190 @@
+{
+  "data_s": [
+    {
+      "datetime": "2026-03-01",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-02",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-03",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-04",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-05",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-06",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-07",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-08",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-09",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-10",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-11",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-12",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-13",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-14",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-15",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-16",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-17",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-18",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-19",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-20",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-21",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-22",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-23",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-24",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-25",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-26",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-27",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-28",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-29",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    },
+    {
+      "datetime": "2026-03-30",
+      "sport_s": [],
+      "health_s": [],
+      "activity_s": []
+    }
+  ],
+  "role": {
+    "name_id": 237,
+    "demographic_information": "Male, 38 years old, suburban engineer, married with two children, master's degree",
+    "lifestyle": "Desk job with occasional field work, family activities on weekends, coaches kids' sports, home improvement projects, sleeps 6 hours nightly",
+    "medical_history": "Premature beats detected on smartwatch, referred to cardiologist, normal stress test, borderline high cholesterol, no medication"
+  }
+}

@@ -1,0 +1,1846 @@
+{
+  "data_s": [
+    {
+      "datetime": "2026-03-01",
+      "sport_s": [
+        {
+          "start_time": "07:00:00",
+          "end_time": "07:25:00",
+          "sport_type": "Walking",
+          "sport_time": 25,
+          "calorie": 98.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "08:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "14:30:00",
+              "value": 1
+            },
+            {
+              "record_time": "19:45:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "08:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "14:30:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "06:30:00",
+              "value": 97
+            },
+            {
+              "record_time": "22:00:00",
+              "value": 95
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "02:15:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:00:00",
+            "end_time": "06:15:00",
+            "sleep_time": 435,
+            "sleep_scope": 72
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 11250,
+          "all_day_sitting_num": 8,
+          "all_day_calorie": 2450.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-02",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "10:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "16:30:00",
+              "value": 1
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "10:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "16:30:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "09:00:00",
+              "value": 96
+            },
+            {
+              "record_time": "21:30:00",
+              "value": 94
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "00:45:00",
+              "value": 1
+            },
+            {
+              "record_time": "05:00:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:30:00",
+            "end_time": "06:10:00",
+            "sleep_time": 460,
+            "sleep_scope": 65
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 9880,
+          "all_day_sitting_num": 9,
+          "all_day_calorie": 2320.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-03",
+      "sport_s": [
+        {
+          "start_time": "06:30:00",
+          "end_time": "07:10:00",
+          "sport_type": "Jogging",
+          "sport_time": 40,
+          "calorie": 310.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "07:45:00",
+              "value": 0
+            },
+            {
+              "record_time": "12:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "17:30:00",
+              "value": 1
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "07:45:00",
+              "value": 0
+            },
+            {
+              "record_time": "12:00:00",
+              "value": 1
+            },
+            {
+              "record_time": "17:30:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "06:15:00",
+              "value": 98
+            },
+            {
+              "record_time": "13:00:00",
+              "value": 97
+            },
+            {
+              "record_time": "22:30:00",
+              "value": 96
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "03:20:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:30:00",
+            "end_time": "07:00:00",
+            "sleep_time": 450,
+            "sleep_scope": 78
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 13680,
+          "all_day_sitting_num": 6,
+          "all_day_calorie": 2650.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-04",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "09:45:00",
+              "value": 1
+            },
+            {
+              "record_time": "15:00:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "09:45:00",
+              "value": 0
+            },
+            {
+              "record_time": "15:00:00",
+              "value": 1
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "08:30:00",
+              "value": 95
+            },
+            {
+              "record_time": "20:00:00",
+              "value": 93
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "01:50:00",
+              "value": 1
+            },
+            {
+              "record_time": "04:25:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:15:00",
+            "end_time": "06:00:00",
+            "sleep_time": 465,
+            "sleep_scope": 60
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 10520,
+          "all_day_sitting_num": 10,
+          "all_day_calorie": 2380.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-05",
+      "sport_s": [
+        {
+          "start_time": "17:30:00",
+          "end_time": "18:10:00",
+          "sport_type": "Brisk walking",
+          "sport_time": 40,
+          "calorie": 175.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "11:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "16:30:00",
+              "value": 1
+            },
+            {
+              "record_time": "20:30:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "11:00:00",
+              "value": 1
+            },
+            {
+              "record_time": "16:30:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "07:30:00",
+              "value": 97
+            },
+            {
+              "record_time": "23:00:00",
+              "value": 95
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "02:10:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:45:00",
+            "end_time": "06:15:00",
+            "sleep_time": 450,
+            "sleep_scope": 68
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 12100,
+          "all_day_sitting_num": 7,
+          "all_day_calorie": 2520.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-06",
+      "sport_s": [
+        {
+          "start_time": "06:15:00",
+          "end_time": "06:45:00",
+          "sport_type": "Walking",
+          "sport_time": 30,
+          "calorie": 120.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "08:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "13:45:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "08:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "13:45:00",
+              "value": 1
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "05:45:00",
+              "value": 96
+            },
+            {
+              "record_time": "21:00:00",
+              "value": 96
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "01:10:00",
+              "value": 0
+            },
+            {
+              "record_time": "04:40:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:00:00",
+            "end_time": "06:45:00",
+            "sleep_time": 465,
+            "sleep_scope": 70
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 11950,
+          "all_day_sitting_num": 8,
+          "all_day_calorie": 2420.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-07",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "10:30:00",
+              "value": 1
+            },
+            {
+              "record_time": "17:00:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "10:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "17:00:00",
+              "value": 1
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "09:00:00",
+              "value": 94
+            },
+            {
+              "record_time": "22:00:00",
+              "value": 93
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "02:30:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:00:00",
+            "end_time": "05:30:00",
+            "sleep_time": 450,
+            "sleep_scope": 55
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 8900,
+          "all_day_sitting_num": 11,
+          "all_day_calorie": 2250.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-08",
+      "sport_s": [
+        {
+          "start_time": "06:45:00",
+          "end_time": "07:25:00",
+          "sport_type": "Jogging",
+          "sport_time": 40,
+          "calorie": 305.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "07:15:00",
+              "value": 0
+            },
+            {
+              "record_time": "12:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "18:00:00",
+              "value": 1
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "07:15:00",
+              "value": 0
+            },
+            {
+              "record_time": "12:30:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "06:10:00",
+              "value": 98
+            },
+            {
+              "record_time": "19:30:00",
+              "value": 97
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "02:00:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:20:00",
+            "end_time": "07:00:00",
+            "sleep_time": 460,
+            "sleep_scope": 77
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 14850,
+          "all_day_sitting_num": 5,
+          "all_day_calorie": 2720.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-09",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "09:15:00",
+              "value": 1
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "09:15:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "10:00:00",
+              "value": 95
+            },
+            {
+              "record_time": "22:30:00",
+              "value": 94
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "01:25:00",
+              "value": 1
+            },
+            {
+              "record_time": "04:10:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:30:00",
+            "end_time": "06:00:00",
+            "sleep_time": 450,
+            "sleep_scope": 62
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 10150,
+          "all_day_sitting_num": 10,
+          "all_day_calorie": 2340.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-10",
+      "sport_s": [
+        {
+          "start_time": "17:00:00",
+          "end_time": "17:40:00",
+          "sport_type": "Cycling",
+          "sport_time": 40,
+          "calorie": 260.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "08:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "14:00:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "08:00:00",
+              "value": 1
+            },
+            {
+              "record_time": "14:00:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "06:30:00",
+              "value": 97
+            },
+            {
+              "record_time": "21:00:00",
+              "value": 96
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "03:00:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:15:00",
+            "end_time": "06:45:00",
+            "sleep_time": 450,
+            "sleep_scope": 73
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 13080,
+          "all_day_sitting_num": 7,
+          "all_day_calorie": 2570.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-11",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "08:30:00",
+              "value": 1
+            },
+            {
+              "record_time": "15:30:00",
+              "value": 1
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "08:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "15:30:00",
+              "value": 1
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "07:15:00",
+              "value": 95
+            },
+            {
+              "record_time": "23:00:00",
+              "value": 93
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "02:15:00",
+              "value": 1
+            },
+            {
+              "record_time": "04:50:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:00:00",
+            "end_time": "05:15:00",
+            "sleep_time": 435,
+            "sleep_scope": 53
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 9330,
+          "all_day_sitting_num": 10,
+          "all_day_calorie": 2290.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-12",
+      "sport_s": [
+        {
+          "start_time": "06:12:00",
+          "end_time": "07:02:00",
+          "sport_type": "Walking",
+          "sport_time": 50,
+          "calorie": 210.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "10:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "18:30:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "10:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "18:30:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "05:50:00",
+              "value": 97
+            },
+            {
+              "record_time": "20:30:00",
+              "value": 96
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "02:40:00",
+              "value": 0
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:00:00",
+            "end_time": "06:30:00",
+            "sleep_time": 450,
+            "sleep_scope": 72
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 12320,
+          "all_day_sitting_num": 7,
+          "all_day_calorie": 2520.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-13",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "12:30:00",
+              "value": 1
+            },
+            {
+              "record_time": "18:00:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "12:30:00",
+              "value": 1
+            },
+            {
+              "record_time": "18:00:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "08:20:00",
+              "value": 96
+            },
+            {
+              "record_time": "22:10:00",
+              "value": 94
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "01:10:00",
+              "value": 1
+            },
+            {
+              "record_time": "03:55:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:20:00",
+            "end_time": "05:45:00",
+            "sleep_time": 445,
+            "sleep_scope": 63
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 10880,
+          "all_day_sitting_num": 10,
+          "all_day_calorie": 2410.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-14",
+      "sport_s": [
+        {
+          "start_time": "07:10:00",
+          "end_time": "07:50:00",
+          "sport_type": "Brisk walking",
+          "sport_time": 40,
+          "calorie": 178.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "09:45:00",
+              "value": 0
+            },
+            {
+              "record_time": "14:10:00",
+              "value": 1
+            },
+            {
+              "record_time": "20:00:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "09:45:00",
+              "value": 0
+            },
+            {
+              "record_time": "14:10:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "06:35:00",
+              "value": 98
+            },
+            {
+              "record_time": "21:15:00",
+              "value": 95
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "02:30:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:15:00",
+            "end_time": "06:50:00",
+            "sleep_time": 455,
+            "sleep_scope": 75
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 13280,
+          "all_day_sitting_num": 6,
+          "all_day_calorie": 2580.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-15",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "08:00:00",
+              "value": 1
+            },
+            {
+              "record_time": "19:00:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "08:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "19:00:00",
+              "value": 1
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "09:30:00",
+              "value": 94
+            },
+            {
+              "record_time": "23:30:00",
+              "value": 92
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "03:00:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:05:00",
+            "end_time": "05:50:00",
+            "sleep_time": 465,
+            "sleep_scope": 56
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 8750,
+          "all_day_sitting_num": 11,
+          "all_day_calorie": 2230.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-16",
+      "sport_s": [
+        {
+          "start_time": "16:30:00",
+          "end_time": "17:15:00",
+          "sport_type": "Jogging",
+          "sport_time": 45,
+          "calorie": 340.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "07:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "11:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "15:30:00",
+              "value": 1
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "07:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "11:30:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "06:15:00",
+              "value": 98
+            },
+            {
+              "record_time": "18:00:00",
+              "value": 96
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "02:50:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:55:00",
+            "end_time": "07:15:00",
+            "sleep_time": 440,
+            "sleep_scope": 74
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 14280,
+          "all_day_sitting_num": 5,
+          "all_day_calorie": 2690.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-17",
+      "sport_s": [
+        {
+          "start_time": "06:30:00",
+          "end_time": "07:00:00",
+          "sport_type": "Walking",
+          "sport_time": 30,
+          "calorie": 125.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "10:15:00",
+              "value": 0
+            },
+            {
+              "record_time": "16:00:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "10:15:00",
+              "value": 1
+            },
+            {
+              "record_time": "16:00:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "08:55:00",
+              "value": 96
+            },
+            {
+              "record_time": "21:20:00",
+              "value": 95
+            }
+          ],
+          "sleep_apnea": [],
+          "sleep_stage": {
+            "start_time": "23:30:00",
+            "end_time": "07:00:00",
+            "sleep_time": 450,
+            "sleep_scope": 69
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 11720,
+          "all_day_sitting_num": 8,
+          "all_day_calorie": 2440.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-18",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "11:30:00",
+              "value": 1
+            },
+            {
+              "record_time": "17:30:00",
+              "value": 1
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "11:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "17:30:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "08:10:00",
+              "value": 94
+            },
+            {
+              "record_time": "22:15:00",
+              "value": 93
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "00:50:00",
+              "value": 1
+            },
+            {
+              "record_time": "05:15:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:20:00",
+            "end_time": "05:55:00",
+            "sleep_time": 455,
+            "sleep_scope": 54
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 9560,
+          "all_day_sitting_num": 11,
+          "all_day_calorie": 2330.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-19",
+      "sport_s": [
+        {
+          "start_time": "06:00:00",
+          "end_time": "06:50:00",
+          "sport_type": "Cycling",
+          "sport_time": 50,
+          "calorie": 320.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "08:45:00",
+              "value": 0
+            },
+            {
+              "record_time": "14:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "20:30:00",
+              "value": 1
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "08:45:00",
+              "value": 0
+            },
+            {
+              "record_time": "14:30:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "05:35:00",
+              "value": 97
+            },
+            {
+              "record_time": "23:00:00",
+              "value": 96
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "01:45:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:10:00",
+            "end_time": "06:30:00",
+            "sleep_time": 440,
+            "sleep_scope": 76
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 13420,
+          "all_day_sitting_num": 6,
+          "all_day_calorie": 2680.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-20",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "09:15:00",
+              "value": 1
+            },
+            {
+              "record_time": "18:00:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "09:15:00",
+              "value": 1
+            },
+            {
+              "record_time": "18:00:00",
+              "value": 1
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "11:00:00",
+              "value": 95
+            },
+            {
+              "record_time": "22:10:00",
+              "value": 94
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "03:35:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:50:00",
+            "end_time": "06:05:00",
+            "sleep_time": 445,
+            "sleep_scope": 58
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 9920,
+          "all_day_sitting_num": 9,
+          "all_day_calorie": 2380.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-21",
+      "sport_s": [
+        {
+          "start_time": "06:45:00",
+          "end_time": "07:30:00",
+          "sport_type": "Jogging",
+          "sport_time": 45,
+          "calorie": 340.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "10:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "20:15:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "10:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "20:15:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "07:40:00",
+              "value": 98
+            },
+            {
+              "record_time": "20:45:00",
+              "value": 96
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "02:10:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:25:00",
+            "end_time": "07:10:00",
+            "sleep_time": 465,
+            "sleep_scope": 80
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 14350,
+          "all_day_sitting_num": 5,
+          "all_day_calorie": 2740.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-22",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "08:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "13:45:00",
+              "value": 1
+            },
+            {
+              "record_time": "21:30:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "08:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "13:45:00",
+              "value": 1
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "07:20:00",
+              "value": 96
+            },
+            {
+              "record_time": "23:30:00",
+              "value": 94
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "01:58:00",
+              "value": 1
+            },
+            {
+              "record_time": "05:12:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:10:00",
+            "end_time": "06:00:00",
+            "sleep_time": 470,
+            "sleep_scope": 64
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 10240,
+          "all_day_sitting_num": 10,
+          "all_day_calorie": 2390.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-23",
+      "sport_s": [
+        {
+          "start_time": "06:08:00",
+          "end_time": "06:48:00",
+          "sport_type": "Brisk walking",
+          "sport_time": 40,
+          "calorie": 172.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "11:15:00",
+              "value": 1
+            },
+            {
+              "record_time": "17:45:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "11:15:00",
+              "value": 0
+            },
+            {
+              "record_time": "17:45:00",
+              "value": 1
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "05:50:00",
+              "value": 97
+            },
+            {
+              "record_time": "21:50:00",
+              "value": 95
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "02:25:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:05:00",
+            "end_time": "06:25:00",
+            "sleep_time": 440,
+            "sleep_scope": 70
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 12650,
+          "all_day_sitting_num": 7,
+          "all_day_calorie": 2490.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-24",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "09:00:00",
+              "value": 1
+            },
+            {
+              "record_time": "14:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "20:00:00",
+              "value": 1
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "09:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "14:30:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "07:00:00",
+              "value": 95
+            },
+            {
+              "record_time": "22:20:00",
+              "value": 93
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "03:22:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:30:00",
+            "end_time": "05:40:00",
+            "sleep_time": 430,
+            "sleep_scope": 59
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 9630,
+          "all_day_sitting_num": 10,
+          "all_day_calorie": 2310.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-25",
+      "sport_s": [
+        {
+          "start_time": "06:20:00",
+          "end_time": "07:10:00",
+          "sport_type": "Walking",
+          "sport_time": 50,
+          "calorie": 215.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "08:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "13:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "21:00:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "08:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "13:00:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "05:55:00",
+              "value": 97
+            },
+            {
+              "record_time": "23:45:00",
+              "value": 96
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "01:15:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:15:00",
+            "end_time": "06:45:00",
+            "sleep_time": 450,
+            "sleep_scope": 78
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 13570,
+          "all_day_sitting_num": 7,
+          "all_day_calorie": 2580.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-26",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "10:00:00",
+              "value": 1
+            },
+            {
+              "record_time": "15:30:00",
+              "value": 0
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "10:00:00",
+              "value": 0
+            },
+            {
+              "record_time": "15:30:00",
+              "value": 1
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "08:45:00",
+              "value": 94
+            },
+            {
+              "record_time": "23:50:00",
+              "value": 93
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "02:00:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:15:00",
+            "end_time": "05:50:00",
+            "sleep_time": 455,
+            "sleep_scope": 61
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 10780,
+          "all_day_sitting_num": 9,
+          "all_day_calorie": 2360.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-27",
+      "sport_s": [
+        {
+          "start_time": "16:45:00",
+          "end_time": "17:30:00",
+          "sport_type": "Cycling",
+          "sport_time": 45,
+          "calorie": 290.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "09:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "16:10:00",
+              "value": 1
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "09:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "16:10:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "06:00:00",
+              "value": 97
+            },
+            {
+              "record_time": "22:40:00",
+              "value": 95
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "02:40:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:05:00",
+            "end_time": "06:35:00",
+            "sleep_time": 450,
+            "sleep_scope": 71
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 12750,
+          "all_day_sitting_num": 7,
+          "all_day_calorie": 2510.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-28",
+      "sport_s": [],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "12:15:00",
+              "value": 1
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "12:15:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "23:40:00",
+              "value": 95
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "03:06:00",
+              "value": 1
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "22:40:00",
+            "end_time": "06:15:00",
+            "sleep_time": 455,
+            "sleep_scope": 51
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 9190,
+          "all_day_sitting_num": 8,
+          "all_day_calorie": 2230.0
+        }
+      ]
+    },
+    {
+      "datetime": "2026-03-29",
+      "sport_s": [
+        {
+          "start_time": "07:15:00",
+          "end_time": "08:00:00",
+          "sport_type": "Walking",
+          "sport_time": 45,
+          "calorie": 192.0
+        }
+      ],
+      "health_s": [
+        {
+          "atrial_fibrillation": [
+            {
+              "record_time": "09:30:00",
+              "value": 0
+            },
+            {
+              "record_time": "17:00:00",
+              "value": 1
+            }
+          ],
+          "premature_heartbeat": [
+            {
+              "record_time": "09:30:00",
+              "value": 1
+            },
+            {
+              "record_time": "17:00:00",
+              "value": 0
+            }
+          ],
+          "blood_oxygen": [
+            {
+              "record_time": "06:20:00",
+              "value": 96
+            },
+            {
+              "record_time": "22:20:00",
+              "value": 97
+            }
+          ],
+          "sleep_apnea": [
+            {
+              "record_time": "01:55:00",
+              "value": 0
+            }
+          ],
+          "sleep_stage": {
+            "start_time": "23:20:00",
+            "end_time": "06:50:00",
+            "sleep_time": 450,
+            "sleep_scope": 68
+          }
+        }
+      ],
+      "activity_s": [
+        {
+          "all_day_step_count": 11630,
+          "all_day_sitting_num": 7,
+          "all_day_calorie": 2510.0
+        }
+      ]
+    }
+  ],
+  "role": {
+    "name_id": 3,
+    "demographic_information": "Male, 45 years old, construction supervisor, high school education, married with two children",
+    "lifestyle": "Physically demanding job, irregular sleep schedule, moderate smoker (10 cigarettes/day), occasional beer after work",
+    "medical_history": "Atrial fibrillation diagnosed 3 years ago, on anticoagulant medication, borderline hypertension"
+  }
+}

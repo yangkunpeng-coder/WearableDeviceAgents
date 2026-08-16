@@ -1,0 +1,14 @@
+{
+  "questions": [
+    "What changes occurred in my daily step count over the past week? How did my daily exercise frequency change? How did my daily atrial fibrillation events change?",
+    "What changes occurred in my weekly total step count over the past month? How did my weekly exercise frequency change? How did my weekly premature ventricular contraction events change?",
+    "Over the past two weeks, how did my daily sleep apnea events change? How did my weekly total step count change? How did my daily sleep duration change?",
+    "Over the past month, how did my weekly exercise duration change? How did my weekly sleep quality score change? How did my weekly atrial fibrillation event frequency change?",
+    "Over the past three weeks, how did my daily cardiac abnormality events change? How did my daily calories burned through exercise change? How did my daily sleep duration change?",
+    "Over the past month, what was the trend of my weekly step count? How did my weekly sedentary time change? Do these changes indicate a change in my activity level?",
+    "Over the past two weeks, how did my daily sleep duration and sleep quality change? At the same time, did my premature ventricular contraction events change?",
+    "Over the past month, how did my weekly exercise frequency, sleep quality, and cardiac health indicators change respectively? Considering these indicators together, do they suggest any changes in my overall health status?",
+    "Over the past three weeks, how did my daily atrial fibrillation events, premature ventricular contraction events, and sleep apnea events change? Do these abnormal events show an increasing trend?",
+    "Over the past month, what long-term trends can be observed in my exercise patterns, sleep patterns, and daily activity levels? Do these changes indicate any health risks that require attention?"
+  ]
+}

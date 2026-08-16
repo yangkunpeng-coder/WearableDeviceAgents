@@ -1,0 +1,8 @@
+agentscope
+numpy
+openai
+pandas
+pydantic
+torch
+tqdm
+transformers

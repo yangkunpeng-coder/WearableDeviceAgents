@@ -37,44 +37,6 @@ Set API keys in your process environment before starting Python:
 
 The AgentScope configuration in `agent_s/agent_config.py` uses `deepseek-chat` or `qwen3-max`; it is separate from the examples' DeepSeek brain. There is no `.env.example` or automatic `.env` loading in the application code.
 
-## Usage
-
-Run these commands from the repository root after configuring `DEEPSEEK_API_KEY`. Each runs an existing demo with `data/roles_data_en_10000/role_data_1.json` and a predefined natural-language question. The launcher preserves the repository import path and switches to the working directory expected by the demos.
-
-Multi-agent analysis (`agent_s/manager_agent.py`):
-
-```bash
-python -c "import os, runpy, sys; sys.path.insert(0, os.getcwd()); os.chdir('agent_s'); runpy.run_module('agent_s.manager_agent', run_name='__main__')"
-```
-
-Query-only example (`agent_s/query_agent.py`):
-
-```bash
-python -c "import os, runpy, sys; sys.path.insert(0, os.getcwd()); os.chdir('agent_s'); runpy.run_module('agent_s.query_agent', run_name='__main__')"
-```
-
-For a custom question, use the Python API from the repository root:
-
-```python
-import json
-
-from agent_s.manager_agent import ManagerAgent
-from brain_s.deepseek_v4_pro import DeepseekV4ProBrain
-
-with open("data/roles_data_en_10000/role_data_1.json", encoding="utf-8") as f:
-    role_data = json.load(f)
-
-agent = ManagerAgent(DeepseekV4ProBrain())
-result = agent.run_agent(
-    content="Compare my sleep duration and daily step counts over the past two weeks, "
-            "and describe their trends.",
-    role_data_dict=role_data,
-)
-print(result.co_output)
-```
-
-Relative dates are interpreted using the last dated record in the input data. Custom data must follow the same JSON structure as the bundled example.
-
 ## Paper
 
 **A Task-Oriented Multi-Agent Framework for Complex Wearable Health Analysis**
